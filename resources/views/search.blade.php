@@ -4,7 +4,7 @@
 
 @section('content')
 <script src="/js/search.js"></script>
-<div class="banner">
+<div class="banner-pesquisar" >
 <div class="main">
 
   <div class="container text-center ">

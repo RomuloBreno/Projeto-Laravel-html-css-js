@@ -154,7 +154,7 @@
 
         <div class="col-md-2">
           <h4>
-            Envie sua mernsagem
+            Envie sua mensagem
           </h4> <br>
           <form action="" class="form">
             <div class="radioForm">
