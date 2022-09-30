@@ -42,8 +42,8 @@
                         <span></span>
                   </div>
             </div>
-            <div class="col-4">
-                  <div class="row texto-sessao-1">
+            <div class="col-4 texto-sessao-1">
+                  <div class="row ">
                         <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis nobis dolorem tempora consequuntur vel ad neque, enim ut atque explicabo rem ea illo iste cumque ratione dolores harum dolore non.</span>
                         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi iure commodi nesciunt culpa nam, itaque asperiores dolores aliquam illum at harum veniam voluptates quaerat. Quae libero adipisci sequi veritatis fuga! Lorem ipsum dolor sit amet consectetur adipisicing elit. In dolor quam maiores expedita ipsa, ut tempora minus natus deserunt.
                               <br><br>
@@ -68,8 +68,8 @@
             <div class="col-2">
             </div>
 
-            <div class="col-4">
-                  <div class="row texto-sessao-1_2">
+            <div class="col-4  texto-sessao-1_2">
+                  <div class="row">
                         <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis nobis dolorem tempora consequuntur vel ad neque, enim ut atque explicabo rem ea illo iste cumque ratione dolores harum dolore non.</span>
                         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi iure commodi nesciunt culpa nam, itaque asperiores dolores aliquam illum at harum veniam voluptates quaerat. Quae libero adipisci sequi veritatis fuga! Lorem ipsum dolor sit amet consectetur adipisicing elit. In dolor quam maiores expedita ipsa, ut tempora minus natus deserunt.
                               <br><br>
@@ -77,7 +77,7 @@
                         </span>
                   </div>
             </div>
-            <div class="col-4">
+            <div class="col-4 align-item-center">
                   <div class="imagem-sessao-1_2">
                         <span></span>
 
@@ -116,4 +116,43 @@
       </div>
 
 </div>
+
+
+<script>
+      
+      var controller = new ScrollMagic.Controller();
+        new ScrollMagic.Scene({
+        triggerElement:'imagem-sessao-1',
+        duration: 1200
+    })
+      .setClassToggle('.imagem-sessao-1', 'show')
+      .addTo(controller);
+      
+
+       new ScrollMagic.Scene({
+          triggerElement:'texto-sessao-1',
+          duration: 1200
+        })
+        .setClassToggle('.texto-sessao-1', 'show')
+        .addTo(controller);
+        
+        
+        new ScrollMagic.Scene({
+        triggerElement:'imagem-sessao-1_2',
+        duration: 1200
+    })
+      .setClassToggle('.imagem-sessao-1_2', 'show')
+      .addTo(controller);
+      
+      
+       new ScrollMagic.Scene({
+        triggerElement:'texto-sessao-1_2',
+        duration: 1200
+    })
+      .setClassToggle('.texto-sessao-1_2', 'show')
+      .addTo(controller);
+    
+
+      
+</script>
 @endsection

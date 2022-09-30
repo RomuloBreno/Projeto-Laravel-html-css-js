@@ -6,6 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>@yield('title')</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.min.js"></script>
+
+ 
 
   <link rel="stylesheet" href=
 "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
@@ -20,6 +25,9 @@
   <link rel="stylesheet" href="/css/style.css">
   <script src="/js/script.js"></script>
   <script src="/js/menu.js"></script>
+
+
+
   <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
   <!-- Styles -->

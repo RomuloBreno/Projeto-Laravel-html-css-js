@@ -48,5 +48,35 @@ if (document.querySelector('#telefone')){
     });
 
     
-    
+
+       
+    //     var controller = new ScrollMagic.Controller();
+    //     new ScrollMagic.Scene({
+    //     triggerElement:'imagem-sessao-1'
+    // })
+    //   .setClassToggle('.imagem-sessao-1', 'show')
+    //   .addTo(controller);
+      
+      
+      
+    //   var transitionTexto = new ScrollMagic.Scene({
+    //       triggerElement:'texto-sessao-1',
+    //       duration: 300
+    //     })
+    //     .setClassToggle('.texto-sessao-1', 'show')
+    //     .addTo(controller);
+        
+        
+    //     var transitionImagem = new ScrollMagic.Scene({
+    //     triggerElement:'imagem-sessao-1_2'
+    // })
+    //   .setClassToggle('.imagem-sessao-1_2', 'show')
+    //   .addTo(controller);
+      
+      
+    //     var transitionTexto = new ScrollMagic.Scene({
+    //     triggerElement:'texto-sessao-1_2'
+    // })
+    //   .setClassToggle('.texto-sessao-1_2', 'show')
+    //   .addTo(controller);
     
