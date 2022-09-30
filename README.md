@@ -16,10 +16,10 @@ Caso você tenha se interessado baixe o repositório faça o seguinte:
 
 2 - Abra com Vscode
 
-3 - Inicia o artisan com o comando:
+3 - Inicia o artisan com o comando:<br>
     php artisan serve
 
-4 - Abra o projeto no ip local na porta 8000 
+4 - Abra o projeto no ip local na porta 8000 <br>
     127.0.0.1:8000
 
 ## License
