@@ -17,24 +17,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/loja', function () {
-    return view('store');
-});
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth', 'verified'])->name('dashboard');
 
-Route::get('/sobre', function () {
-    return view('find');
-});
+require __DIR__.'/auth.php';
 
-Route::get('/patrocinador', function () {
-    return view('sponsor');
-});
-
-Route::get('/login', function () {
-    return view('login');
-});
-Route::get('/carrinho', function () {
-    return view('cart');
-});
-Route::get('/pesquisa', function () {
+Route::get('/pesquisar', function () {
     return view('search');
 });

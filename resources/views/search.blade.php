@@ -4,7 +4,7 @@
 
 @section('content')
 <script src="/js/search.js"></script>
-<div class="banner-pesquisar" >
+<div class="banner-pesquisar banner" >
 <div class="main">
 
   <div class="container text-center ">
@@ -34,10 +34,10 @@
         <div class="col-4"></div>
           <div class="col-4">
             
-            <div id="camposStatus" style="display: none; color:#000;">
+            <div id="camposStatus" class="main" style="display: none; color:#ccc !important;">
           
             <div id="res">
-              <ul style="display: none; color:#000;">
+              <ul style="display: none; color:#ccc;">
             
               </ul>
               <div class="row">
