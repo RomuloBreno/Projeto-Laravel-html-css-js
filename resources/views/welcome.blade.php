@@ -38,11 +38,11 @@
             </div>
 
             <div class="col-4">
-                  <div class="imagem-sessao-1">
+                  <div class="imagem-sessao-1" data-aos="fade-right">
                         <span></span>
                   </div>
             </div>
-            <div class="col-4 texto-sessao-1">
+            <div class="col-4 texto-sessao-1" data-aos="fade-up">
                   <div class="row ">
                         <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis nobis dolorem tempora consequuntur vel ad neque, enim ut atque explicabo rem ea illo iste cumque ratione dolores harum dolore non.</span>
                         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi iure commodi nesciunt culpa nam, itaque asperiores dolores aliquam illum at harum veniam voluptates quaerat. Quae libero adipisci sequi veritatis fuga! Lorem ipsum dolor sit amet consectetur adipisicing elit. In dolor quam maiores expedita ipsa, ut tempora minus natus deserunt.
@@ -68,7 +68,7 @@
             <div class="col-2">
             </div>
 
-            <div class="col-4  texto-sessao-1_2">
+            <div class="col-4  texto-sessao-1_2" data-aos="fade-down" >
                   <div class="row">
                         <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis nobis dolorem tempora consequuntur vel ad neque, enim ut atque explicabo rem ea illo iste cumque ratione dolores harum dolore non.</span>
                         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi iure commodi nesciunt culpa nam, itaque asperiores dolores aliquam illum at harum veniam voluptates quaerat. Quae libero adipisci sequi veritatis fuga! Lorem ipsum dolor sit amet consectetur adipisicing elit. In dolor quam maiores expedita ipsa, ut tempora minus natus deserunt.
@@ -78,7 +78,7 @@
                   </div>
             </div>
             <div class="col-4 align-item-center">
-                  <div class="imagem-sessao-1_2">
+                  <div class="imagem-sessao-1_2" data-aos="fade-left">
                         <span></span>
 
                   </div>
@@ -118,7 +118,8 @@
 </div>
 
 
-<script>
+
+<!-- <script>
       
       var controller = new ScrollMagic.Controller();
         new ScrollMagic.Scene({
@@ -154,5 +155,5 @@
     
 
       
-</script>
+</script> -->
 @endsection
