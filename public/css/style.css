@@ -111,6 +111,35 @@ margin-top: 150px;
 .banner-home{
   background-color:rgb(81, 81, 81) !important;
 }
+.logout{
+  background-color: #ccc !important;
+  text-decoration: none;
+  position: absolute;
+  width: 5%;
+  border-radius: 4px;
+
+}
+
+.logout > a{
+  padding: 4px;
+  color: #000;
+  text-decoration: none;
+
+}
+.logout:hover{
+  font-weight: 600;
+
+}
+
+
+.hidden-logout{
+  opacity: 0;
+
+}
+
+.show-logout{
+  opacity: 1 !important;
+}
 
 /* FIM DO HEADER */
 

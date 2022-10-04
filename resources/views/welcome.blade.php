@@ -6,8 +6,16 @@
 <div class="banner banner-home">
       <div class="conteiner">
             <div class="row">
-                  <div class="col-md-10">
+                  <div class="col-md-9">
                   </div>
+                  @if(Auth::user())
+                  <div class="col-md-1">
+                        <a href="/painel" class="name-user">
+
+                              <span class="btn-register btn-user">{{Auth::user()->name}}</span>
+                        </a>
+                  </div>
+                  @else
                   <div class="col-md-1 nav-user">
                         <a href="/login" class="">
                               <span class="btn-login btn-user">Entrar</span>
@@ -18,11 +26,18 @@
                               <span class="btn-register btn-user">Registrar</span>
                         </a>
                   </div>
+                  @endif
 
             </div>
             <div class="row">
                   <div class="col-md-6 col-sm-1 infos-banner" data-aos="fade-right" data-aos-delay="300">
+
+                        @if(Auth::user())
+                        <h3>Olá, Seja bem-vindo {{Auth::user()->name}}</h3>
+                        @else
                         <h3>Olá, Seja bem-vindo</h3>
+
+                        @endif
                         <h4>Espero que goste desse meu trabalho</h4>
                         <h6>Caso queira entrar em contato <i class="bi bi-arrow-down-short"></i></h6>
                         <a href=""><button class="btn btn-banner form-controler">Entrar em contato</button></a>
