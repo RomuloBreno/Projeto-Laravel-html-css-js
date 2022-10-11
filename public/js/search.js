@@ -13,30 +13,23 @@ document.addEventListener("DOMContentLoaded", function (event) {
     const camposStatus = document.querySelector('#camposStatus');
 
     const consulta = async () => {
-      const url = document.querySelector('.site').value;
-      const cliente = document.querySelector('.cliente').value;
+      const email = document.querySelector('.e-mail').value;
+      const nome = document.querySelector('.nome').value;
 
       camposStatus.style.display = 'none';
 
-      //   if (!url || !cliente) {
-      //     camposStatus.style.display = 'block';
-      //     camposStatus.innerHTML = 'O campo URL: precisa ser preenchido<br>';
-      //     camposStatus.innerHTML += 'O campo Cliente precisa ser preenchido';
-      //     return;
-      //   }
-
-      let urldefault = `https://sheetdb.io/api/v1/r9fdgawufubel/search?Url=${url}&Cliente=${cliente}`;
+      let urldefault = `https://sheetdb.io/api/v1/y7xb1zj5oy5jk/search?Nome=${nome}&E-mail=${email}`;
 
 
 
-      if (!url) {
+      if (!nome) {
         camposStatus.style.display = 'block';
-        urldefault = `https://sheetdb.io/api/v1/r9fdgawufubel/search?Cliente=${cliente}`;
+        urldefault = `https://sheetdb.io/api/v1/y7xb1zj5oy5jk/search?E-mail=${email}`;
       }
 
-      if (!cliente) {
+      if (!email) {
         camposStatus.style.display = 'block';
-        urldefault = `https://sheetdb.io/api/v1/r9fdgawufubel/search?Url=${url}`;
+        urldefault = `https://sheetdb.io/api/v1/y7xb1zj5oy5jk/search?Nome=${nome}`;
       }
 
       const res = await axios.get(urldefault);

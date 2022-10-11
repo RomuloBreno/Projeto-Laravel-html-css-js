@@ -13,11 +13,17 @@
         <div class="col-4"></div>
         <div class="col-4">
           <form>
+            @CRLF
             <div class="mb-3">
-              <input class="cliente form-control" type="text" size="50" placeholder="Cliente" />
+              <span class="text-center">Experimente digitar "Romulo"</span>
+              <input class="cliente nome form-control" type="text" size="50" placeholder="Nome" />
+            </div>
+            <div>
+            <span class="text-center">ou</span>
+            <br><br>
             </div>
             <div class="mb-3">
-              <input class="site form-control" type="text" size="50" placeholder="Site" />
+              <input class="site e-mail form-control" type="text" size="50" placeholder="E-mail" />
             </div>
             <div class="mb-3">
               <button class="btn btnPesquisa" type="submit">Enviar</button>
