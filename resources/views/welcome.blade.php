@@ -21,7 +21,7 @@
                               <span class="btn-login btn-user">Entrar</span>
                         </a>
                   </div>
-                  <div class="col-md-1">
+                  <div class="col-md-1 nav-user">
                         <a href="/register" class="">
                               <span class="btn-register btn-user">Registrar</span>
                         </a>
@@ -70,17 +70,17 @@
             </div>
 
             <div class="col-4">
-                  <div class="imagem-sessao-1" data-aos="fade-right">
+                  <div class="imagem-sessao-1 imagem-sessao" data-aos="fade-right">
                         <span></span>
                   </div>
             </div>
-            <div class="col-4 texto-sessao-1" data-aos="fade-up">
+            <div class="col-4 texto-sessao-1 texto-sessao" data-aos="fade-up">
                   <div class="row">
                         <h5 class="text-center">Js e MySQL(.gs)</h5>
-                        <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis nobis dolorem tempora consequuntur vel ad neque, enim ut atque explicabo rem ea illo iste cumque ratione dolores harum dolore non.</span>
-                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi iure commodi nesciunt culpa nam, itaque asperiores dolores aliquam illum at harum veniam voluptates quaerat. Quae libero adipisci sequi veritatis fuga! Lorem ipsum dolor sit amet consectetur adipisicing elit. In dolor quam maiores expedita ipsa, ut tempora minus natus deserunt.
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis nobis dolorem tempora consequuntur vel ad neque, enim ut atque explicabo rem ea illo iste cumque ratione dolores harum dolore non.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi iure commodi nesciunt culpa nam, itaque asperiores dolores aliquam illum at harum veniam voluptates quaerat. Quae libero adipisci sequi veritatis fuga! Lorem ipsum dolor sit amet consectetur adipisicing elit. In dolor quam maiores expedita ipsa, ut tempora minus natus deserunt.
                               <br><br>
-                        </span>
+                        </p>
 
                         <a href=""><button class="btn">Cadastro</button></a>
                   </div>
@@ -101,18 +101,18 @@
             <div class="col-2">
             </div>
 
-            <div class="col-4  texto-sessao-1_2" data-aos="fade-down">
+            <div class="col-4  texto-sessao-1_2 texto-sessao" data-aos="fade-down">
                   <div class="row">
                         <h5 class="text-center">Js e Google Sheet(.js)</h5>
-                        <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis nobis dolorem tempora consequuntur vel ad neque, enim ut atque explicabo rem ea illo iste cumque ratione dolores harum dolore non.</span>
-                        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi iure commodi nesciunt culpa nam, itaque asperiores dolores aliquam illum at harum veniam voluptates quaerat. Quae libero adipisci sequi veritatis fuga! Lorem ipsum dolor sit amet consectetur adipisicing elit. In dolor quam maiores expedita ipsa, ut tempora minus natus deserunt.
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis nobis dolorem tempora consequuntur vel ad neque, enim ut atque explicabo rem ea illo iste cumque ratione dolores harum dolore non.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi iure commodi nesciunt culpa nam, itaque asperiores dolores aliquam illum at harum veniam voluptates quaerat. Quae libero adipisci sequi veritatis fuga! Lorem ipsum dolor sit amet consectetur adipisicing elit. In dolor quam maiores expedita ipsa, ut tempora minus natus deserunt.
                               <br><br>
                               <a href=""><button class="btn">Cadastro</button></a>
-                        </span>
+                        </p>
                   </div>
             </div>
             <div class="col-4 align-item-center">
-                  <div class="imagem-sessao-1_2" data-aos="fade-left">
+                  <div class="imagem-sessao-1_2 imagem-sessao" data-aos="fade-left">
                         <span></span>
 
                   </div>

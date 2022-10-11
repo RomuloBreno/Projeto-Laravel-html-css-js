@@ -13,7 +13,7 @@
         <div class="col-4"></div>
         <div class="col-4">
           <form>
-            @CRLF
+          @csrf
             <div class="mb-3">
               <span class="text-center">Experimente digitar "Romulo"</span>
               <input class="cliente nome form-control" type="text" size="50" placeholder="Nome" />
@@ -43,7 +43,7 @@
             <div id="camposStatus" class="main" style="display: none; color:#ccc !important;">
           
             <div id="res">
-              <ul style="display: none; color:#ccc;">
+              <ul style="display: none; color:#ccc; font-weight: 700;">
             
               </ul>
               <div class="row">

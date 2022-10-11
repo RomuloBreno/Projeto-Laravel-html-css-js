@@ -69,8 +69,9 @@
           <div align="center" class="texto-ajust">
             <a href="" class="texto-menu">Projetos</a>
             <div class="texto-ajust texto-submenu-esconder">
-              <a href="" class="texto-submenu">Python</a>
-              <a href="" class="texto-submenu">MySQL</a>
+              <a href="/python" class="texto-submenu">Python</a>
+              <a href="/mysql" class="texto-submenu">MySQL</a>
+              <a href="/pesquisar" class="texto-submenu">Pesquisa</a>
             </div>
           </div>
 
