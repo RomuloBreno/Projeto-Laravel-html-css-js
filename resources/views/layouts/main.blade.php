@@ -10,10 +10,10 @@
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 
- 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <link rel="stylesheet" href=
-"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,13 +25,13 @@
   <link rel="stylesheet" href="/css/style.css">
   <script src="/js/script.js"></script>
   <script src="/js/menu.js"></script>
-
+  <script src="/js/menuMobile.js"></script>
 
 
   <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
   <!-- Styles -->
-  
+
 </head>
 <header>
 </header>
@@ -60,7 +60,7 @@
   @yield('banner')
 
 
-  <div class="conteiner">
+  <div class="conteiner menu-global">
     <div class="header" id="myHeader">
 
       <div class="menu-dad">
@@ -112,6 +112,38 @@
   </div>
 
 
+  <div class="content-menu-mobile">
+
+    <div class="btn-menu-mobile topnav icon-mobile-menu">
+    <span>
+    <i class="fa fa-bars"></i>
+  </span>
+  
+  <div class="conteiner menu-global-mobile">
+    <div class="menu-mobile ">
+      <ul class="ul-menu-mobile">
+        <li class="texto-menu">Projetos</li>
+        <li class="texto-menu"><a href="/python" class="texto-submenu">Python</a></li>
+        <li class="texto-menu"> <a href="/mysql" class="texto-submenu">MySQL</a></li>
+        <li class="texto-menu"><a href="/pesquisar" class="texto-submenu">Pesquisa</a></li>
+        
+        <li class="texto-menu">Sobre</li>
+        <li class="texto-menu"><a href="" class="texto-submenu">Quem sou?</a></li>
+        <li class="texto-menu"><a href="" class="texto-submenu">Habilidades</a></li>
+        
+        <li class="texto-menu">Contato</li>
+        <li class="texto-menu"><a href="" class="texto-submenu">Formulário</a></li>
+        <li class="texto-menu"><a href="" class="texto-submenu">Sociais</a></li>
+        
+      </div>
+      
+    </div>
+    
+  </div>
+
+  </div>
+
+
   @yield('content')
 
 
@@ -120,7 +152,7 @@
     <div class="conteiner footerMobile">
 
       <div class="row">
-      <div class="col-md-1">
+        <div class="col-md-1">
 
         </div>
 
@@ -133,33 +165,33 @@
 
         </div>
 
-          <div class="col-md-5">
-            <div class="row">
-              <div class="col-md-4 navFooter">
-                <h3><a href="">Projetos</a></h3>
-                <span><i class="bi bi-arrow-right-short"></i><a href="">Python</a></span><br>
-                <span><i class="bi bi-arrow-right-short"></i><a href="">MySQL</a></span><br>
-      
-              </div>
-              <div class="col-md-4 navFooter">
-              <h3><a href="">Sobre</a></h3>
-                <span><i class="bi bi-arrow-right-short"></i><a href="">Quem sou?</a></span><br>
-                <span><i class="bi bi-arrow-right-short"></i> <a href="">Habilidades</a></span><br>
-      
-              </div>
-              
-      
-              <div class="col-md-4 navFooter">
-              
-              <h3><a href="">Contato</a></h3>
-                <span><i class="bi bi-arrow-right-short"></i><a href="">Formulário</a></span><br>
-                <span><i class="bi bi-arrow-right-short"></i><a href="">Sociais</a></span><br>
-              </div>
+        <div class="col-md-5">
+          <div class="row">
+            <div class="col-md-4 navFooter">
+              <h3><a href="">Projetos</a></h3>
+              <span><i class="bi bi-arrow-right-short"></i><a href="">Python</a></span><br>
+              <span><i class="bi bi-arrow-right-short"></i><a href="">MySQL</a></span><br>
 
-              
+            </div>
+            <div class="col-md-4 navFooter">
+              <h3><a href="">Sobre</a></h3>
+              <span><i class="bi bi-arrow-right-short"></i><a href="">Quem sou?</a></span><br>
+              <span><i class="bi bi-arrow-right-short"></i> <a href="">Habilidades</a></span><br>
+
             </div>
 
+
+            <div class="col-md-4 navFooter">
+
+              <h3><a href="">Contato</a></h3>
+              <span><i class="bi bi-arrow-right-short"></i><a href="">Formulário</a></span><br>
+              <span><i class="bi bi-arrow-right-short"></i><a href="">Sociais</a></span><br>
+            </div>
+
+
           </div>
+
+        </div>
 
         <div class="col-md-2">
           <h4>
@@ -168,11 +200,11 @@
           <form action="" class="form">
             <div class="radioForm">
               <div class="form-group">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="email" require/>
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="email" require />
                 <label class="form-check-label" for="email"> E-mail </label>
               </div>
-              
-            
+
+
 
               <!-- Default checked radio -->
               <div class="form-group">
@@ -181,14 +213,14 @@
               </div>
             </div>
 
-                   <div class="form-group">
-                     <input type="Telefone" class="input form-control telefone" placeholder="Telefone" >
-                     <input type="e-mail" class="input form-control email" placeholder="E-mail">
-
-                   </div>
-          
             <div class="form-group">
-              
+              <input type="Telefone" class="input form-control telefone" placeholder="Telefone">
+              <input type="e-mail" class="input form-control email" placeholder="E-mail">
+
+            </div>
+
+            <div class="form-group">
+
               <span>Mensagem </span>
               <textarea name="" id="" class="form-control" cols="15" rows="0"></textarea>
             </div>
@@ -204,17 +236,18 @@
         </div>
 
         <div class="col-1">
-              
-          </div>
+
         </div>
-        <br>
-        <div class="copy text-center">
-          <p>Rômulo Breno &copy; 2022</p>
-        </div>
+      </div>
+      <br>
+      <div class="copy text-center">
+        <p>Rômulo Breno &copy; 2022</p>
+      </div>
     </div>
   </footer>
 </body>
 <script>
   AOS.init();
 </script>
+
 </html>

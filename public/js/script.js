@@ -57,10 +57,10 @@ addEventListener('scroll', (event) => {
     var arrowDown = document.querySelector('.bi-arrow-down-circle-fill');
     var scrollTop2 = document.documentElement.scrollTop
     console.log(scrollTop2)
-    if (scrollTop2 > 300) {
-        console.log(scrollTop2)
+    if (scrollTop2 > 500) {
+        // console.log(scrollTop2)
         if (!arrowDown.classList == "arrow-show" == false) {
-            console.log(scrollTop2)
+            // console.log(scrollTop2)
             arrowDown.classList.remove('arrow-show')
             arrowDown.classList.add('arrow-hidden')
 

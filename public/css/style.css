@@ -11,7 +11,7 @@
 }
 
 .conteiner {
-  padding: 10px
+  padding: 6px
 }
 
 a {
@@ -313,7 +313,12 @@ input {
 
 /*FIM DO BODY*/
 
-
+ .menu-global-mobile{
+    display: none !important;
+  }
+  .topnav{
+    display: none;
+  }
 /*FIM DO DESKTOP*/
 /*------------------------------------------------------------------------------------------------------------------------------*/
 /*COMEÇO DO MOBILE*/
@@ -322,7 +327,121 @@ input {
 
 
 /*GLOBAL*/
-/*Sessão 1*/
+
+/*MENU LATERAL*/
+
+/*Menu e title-menu*/
+@media screen and (max-width:970px) {
+
+
+  .icon-mobile-menu{
+    top: 0;
+    height: 78px;
+    background-size: 100%;
+    position: fixed;
+    z-index: 100000000000;
+  }
+
+
+  .content-menu-mobile{
+    position: fixed;
+  }
+
+  .show-mobile-menu{
+    display:block !important ;
+    position: absolute;
+    z-index: 10000;
+  }
+  .icon span > i{
+   cursor: pointer;
+   z-index: 10000;
+  }
+
+  .menu-global-mobile{
+    display: none;
+    width: 20%;
+    
+  }
+  .topnav{
+    display: block !important;
+    padding: 20px;
+    margin-bottom: -58px;
+  }
+
+  .topnav a.icon {
+    display: block;
+    position: fixed;
+    padding: 40px;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav a:hover {
+    color: black;
+  }
+
+
+  .menu-global{
+    display: none !important;
+    
+  }
+ 
+  .ul-menu-mobile{
+    padding: 10px;
+    height: 1000px;
+  }
+
+  ul.ul-menu-mobile > li {
+    margin-top: 8px !important;
+  }
+
+  .menu-mobile {
+    margin-top: -55px;
+    display: grid !important;
+    text-align: left;
+    background-color: #ccc;
+    width: 100px;
+    margin-left: -53px;
+    padding-left: 32px !important;
+
+  }
+  
+  .texto-menu {
+    font-size: 0.7em !important;
+    margin-top: 0px !important;
+    padding-right: 10px;
+  }
+  
+  .texto-submenu {
+   
+  
+  }
+  
+  .texto-submenu-esconder {
+    
+  }
+  
+  
+  .menu-nav:hover>* {
+
+  
+  }
+  
+  .menu:hover .texto-menu {
+
+  }
+  
+  .texto-submenu:hover {
+
+  }
+  
+  .texto-menu:hover {
+   
+  }
+
+}  
+
+/*Sessão*/
 @media screen and (max-width:1800px) {
   .texto-sessao p {
     font-size: 0.9em;
@@ -445,6 +564,14 @@ input {
   .nav-user{
     width: 63px !important;
   }
+
+
+  .bi-arrow-down-circle-fill {
+    font-size: 30px;
+  }
+  
+ 
+
 }
 
 
@@ -482,6 +609,9 @@ input {
   .sessao-1_2{
   margin-top: -18%;
   }
+
+
+  
 }
 /*COMEÇO DO FOOTER*/
 
